@@ -514,6 +514,7 @@ class LaserAnt(ThrowerAnt):
     def insects_in_front(self):
         # BEGIN Problem Optional 2
         insects = {}
+
         distance = 0
         current = self.place
         if current.ant.is_container == True:
